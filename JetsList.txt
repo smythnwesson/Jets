@@ -1,0 +1,5 @@
+FighterJet,Lockheed Martin F-22 Raptor,1500,1839,350000000,
+FighterJet,McDonnell Douglas F-15 Eagle,1875,2992,80000000,
+FighterJet,A-10 Warthog,439,2578,8800000,
+UAV,XQ-58A Valkyrie,652,2449,2500000,
+Cargo,Lockheed Martin C-130 Hercules,368,2361,14000000,

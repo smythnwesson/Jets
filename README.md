@@ -8,5 +8,5 @@ what does it do?
 * switch
 * etc 
 
-### Takeaways from the project
+### Takeaway's from the project
 What did I learn?
