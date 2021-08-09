@@ -15,11 +15,6 @@ public Jets(String model, double speed, int range, long price) {
 	this.price = price;
 }
 
-public void fly() {
-	System.out.println("The jets are flying");
-	//create a body to allow all jets to fly or individual jets if called.
-}
-
 
 public String getModel() {
 	return model;

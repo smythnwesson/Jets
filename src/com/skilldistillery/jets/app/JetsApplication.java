@@ -6,6 +6,7 @@ import java.util.Scanner;
 import com.skilldistillery.jets.entities.*;
 
 public class JetsApplication {
+	
 	private AirField airField = new AirField();
 	String fileName = "JetsList.txt";
 	List<Jets> jets = airField.getJets();
@@ -101,8 +102,13 @@ public class JetsApplication {
 	}
 
 	private void flyAll() {
+            
 		for (Jets jets2 : jets) {
-			System.out.println(jets2.getModel() + " Is flying.");
+			double fuelTime = (double)((int) ((jets2.getRange() / jets2.getSpeed()) * 10)) / 10;
+
+			System.out.println(jets2.getModel() + " is flying and has " + fuelTime +
+					" hours before refuel.");
+			
 		}
 
 	}
