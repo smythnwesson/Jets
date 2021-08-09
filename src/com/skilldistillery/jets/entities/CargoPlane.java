@@ -13,7 +13,7 @@ public class CargoPlane extends Jets implements LoadCargo{
 
 	@Override
 	public void loadCargo() {
-		System.out.println("Loading all cargo!");
+		System.out.println("Loading all cargo on: " + this.getModel());
 		
 	}
 }

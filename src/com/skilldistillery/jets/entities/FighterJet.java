@@ -13,6 +13,6 @@ public class FighterJet extends Jets implements Fight{
 
 	@Override
 	public void fight() {
-		System.out.println("");
+		System.out.println(this.getModel() + " has engaged the enemy!!");
 	}
 }

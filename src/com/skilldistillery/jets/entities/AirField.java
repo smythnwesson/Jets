@@ -19,7 +19,6 @@ public class AirField {
 			String line;
 			
 			while ((line = br.readLine()) != null) {
-				System.out.println("Read the line: " + line);
 				String [] pieces = line.split(",");
 				Jets allJets = null;
 				if(pieces[0].equals("FighterJet")) {
@@ -36,7 +35,6 @@ public class AirField {
 							Integer.parseInt(pieces[3]), Long.parseLong(pieces[4]));
 				}
 				jetFleet.add(allJets);
-				System.out.println(allJets);
 			}
 			br.close();
 			
